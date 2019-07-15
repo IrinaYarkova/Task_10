@@ -22,12 +22,9 @@ public class Main
                 array[i][j] = in.nextInt();
             }
         }
-        System.out.println("Элементы массива умноженные на 3:");
-        for (int i = 0; i < row; i++) {
-            for (int j = 0; j < collum; j++){
-                System.out.print(array[i][j]*3 + " ");
-            }
-            System.out.println("");
+        System.out.println("Первая строка массива умноженная на 3:");
+        for (int i = 0; i < collum; i++) {
+            System.out.print(array[0][i]*3 + " ");
         }
         in.close();
     }
